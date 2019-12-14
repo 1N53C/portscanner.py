@@ -43,4 +43,4 @@ print("Open Port(s) " + str(open_ports))
 elapsed_time = time.time() - start_time
 print('Completed Scan at: {:%Y-%b-%d %H:%M:%S}'.format(datetime.datetime.now()))
 print('Elapsed Time: ' + str(elapsed_time) + ' seconds')
-print('Portscanner by PengSec, Report for ' + str(target_url) + ' (' +str(target_ip)+ ')')
+print('Portscanner by invasive-security.de, Report for ' + str(target_url) + ' (' +str(target_ip)+ ')')
